@@ -1,10 +1,11 @@
 // load Google's JS API and setup the init function
-google.load("gdata", "2.x");
+google.load("gdata", "3.x");
 google.setOnLoadCallback(main);
 
 
 var contactsService = null;
-var contactsServiceScope = 'https://www.google.com/m8/feeds';
+//var contactsServiceScope = 'https://www.google.com/m8/feeds';
+var contactsServiceScope = 'https://www.google.com/m8/feeds/contacts/vonpupp@gmail.com/full';
 var countryprefix = '';
 var fixemails = true;
 
