@@ -5,7 +5,7 @@ google.setOnLoadCallback(main);
 
 var contactsService = null;
 //var contactsServiceScope = 'https://www.google.com/m8/feeds';
-var contactsServiceScope = 'https://www.google.com/m8/feeds/contacts/vonpupp@gmail.com/full';
+var contactsServiceScope = 'https://www.google.com/m8/feeds/contacts/vonpupp/full';
 var countryprefix = '';
 var fixemails = true;
 
